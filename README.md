@@ -13,3 +13,4 @@ En la carpeta [`Parcial2_Grupo6-master`](/Parcial2_Grupo6-master/) se encuentra 
 # Packet Tracer
 En la carpeta [`Packet Tracer`](/Packet Tracer/) se encuentra un proyecto de instalación y arquitectura de redes.
 
+
