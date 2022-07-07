@@ -1,0 +1,93 @@
+body {
+    background-color: #FFFF99;
+}
+
+span {
+    font-family: tahoma;
+    font-size: large;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: #0000FF;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    background-color: #CC99FF;
+    padding: 20px 20px;
+}
+
+select {
+    font-family: perpetua;
+    font-size: large;
+    color: #FF0066;
+    background-color: #6699FF;
+}
+
+hr {
+    border: medium solid #990099;
+}
+
+input {
+    font-family: 'Times New Roman';
+    background-color: #CCCCFF;
+    font-size: 1rem;
+    color: #6600CC;
+}
+
+#visaImg {
+    height: 80px;
+    width: 100px;
+}
+
+#mastercardImg {
+    height: 80px;
+    width: 100px;
+}
+
+#amexImg {
+    height: 80px;
+    width: 100px;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.emptyInput {
+    border: 1px solid #ff0000;
+}
+
+.error {
+    background-color: #c88383f6;
+}
+
+.showError {
+    font-family: monospace;
+    font-size: 1rem;
+    color: #d43e3ef6;
+    margin-top: 2px;
+}
+
+.title {
+    color: #008080;
+    text-decoration: blink;
+}
+
+.button {
+    font-family: adobe-gothic-std-b;
+    font-size: large;
+    color: #009900;
+    background-color: #66FFCC;
+    border-color: #808000;;
+    padding: 10px;
+    font-weight: 200;
+    border-radius: 5px;
+    cursor: pointer;
+}

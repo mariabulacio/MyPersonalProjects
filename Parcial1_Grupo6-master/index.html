@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="validation.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- <form action="confirmationGET.asp" method="get"> -->
+        <form action="confirmationPOST.asp" method="post">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4" class="title">ENTRADAS-TEK</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text"><span>Seleccione el equipo:</span></td>
+                    <td>
+                        <select name="games">
+                <option disabled selected hidden>Seleccione una locación</option>
+                <option value="Barcelona_Bilbao"> Barcelona - Ath. Bilbao </option>
+                <option value="Real_Gijon" > Real Madrid - Sp. Gijón </option>
+                <option value="Coruna_Sevilla">Dep. La Coruña - Sevilla</option>
+              </select>
+                    </td>
+
+                    <td><span>Seleccione la ubicación:</span></td>
+                    <td>
+                        <select name="location">
+                <option disabled selected hidden>Seleccione una locación</option>
+                <option value="Popular_Local">Popular Local</option>
+                <option value="Popular_Visitante">Popular Visitante</option>
+                <option value="Platea_Local">Platea Local</option>
+                <option value="Platea_Visitante">Platea Visitante</option>
+              </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="tickets"><span>Cantidad de entradas:</span> </label> </td>
+                    <td> <input type="number" name="tickets" id="tickets" value="" min="1" /> </td>
+                    <td> <label for="price"><span>Precio:</span> </label> </td>
+                    <td> <input type="number" name="price" id="price" value="" readonly/></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="4" class="title">INFORMACIÓN DE PAGO</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="lastName"> <span>Apellido:</span> </label> </td>
+                    <td> <input type="text" name="lastName" id="lastName" value="" /> </td>
+                    <td> <label for="firstName"> <span>Nombre:</span> </label> </td>
+                    <td> <input type="text" name="firstName" id="firstName" value="" /> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email"> <span>E-Mail:</span> </label> </td>
+                    <td> <input type="email" name="email" id="email" value="" /> </td>
+                    <td> <label for="emailConfirm"> <span>Confirme E-Mail:</span> </label> </td>
+                    <td> <input type="email" name="emailConfirm" id="emailConfirm" value="" /> </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="4" class="title">SELECCIONE TARJETA DE CRÉDITO</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <div class="radios cards">
+                            <img src="./assets/img/visa.jpeg" id="visaImg" alt="visa" />
+                            <img src="./assets/img/mastercard.jpeg" id="mastercardImg" alt="mastercard" />
+                            <img src="./assets/img/amex.jpeg" id="amexImg" alt="amex" />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <div class="radios">
+                            <input type="radio" name="card" value="visa" id="visa" />
+                            <input type="radio" name="card" value="master" id="master" />
+                            <input type="radio" name="card" value="amex" id="amex" />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <hr />
+                    </td>
+                </tr>
+
+                <tfoot id="tfoot">
+                    <tr>
+                        <td colspan="4">
+                            <input type="submit" value="Enviar" class="button" />
+                            <input type="reset" value="Limpiar" class="button" />
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

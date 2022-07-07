@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TP2_GRUPO6" Class="DataLinqClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TP2_GRUPO6;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="TP2_GRUPO6ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.alumnos" Member="alumnos">
+    <Type Name="alumno">
+      <Column Name="dni_alumno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre_alumno" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido_alumno" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email_alumno" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="turno_alumno" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="alumno_comentario" Member="comentario" ThisKey="dni_alumno" OtherKey="dni_alumno" Type="comentario" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.comentarios" Member="comentarios">
+    <Type Name="comentario">
+      <Column Name="dni_alumno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="apellido_alumno" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="comentario_alumno" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="alumno_comentario" Member="alumno" ThisKey="dni_alumno" OtherKey="dni_alumno" Type="alumno" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

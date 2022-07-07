@@ -1,0 +1,169 @@
+nav {
+  background-color: #1a2f1c;
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif; }
+
+ul li {
+  padding-left: 80px; }
+
+.nav-link {
+  color: white !important; }
+
+.carousel-inner img {
+  height: 95vh;
+  background-size: cover; }
+
+#libros-cont {
+  min-height: 80vh;
+  display: flex;
+  background-image: url("/statics/img/libros.jpeg");
+  background-size: cover;
+  align-items: center; }
+
+#titulo-libros {
+  min-height: 10vh;
+  min-width: cover;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  background-color: #d3df63; }
+  #titulo-libros h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 25px; }
+    #titulo-libros h2 h3 {
+      color: #110f24;
+      font-family: 'Amiri', serif; }
+    #titulo-libros h2 p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px; }
+
+#libros-cont {
+  color: white; }
+
+.btn {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #1a2f1c; }
+
+.btn:hover {
+  background-color: #d3df63 !important;
+  transition: .3s ease-in-out; }
+
+#book {
+  max-width: 50%; }
+
+.autores {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/statics/img/autores.jpeg");
+  background-size: cover; }
+
+.registro {
+  display: flex;
+  justify-content: center;
+  background-image: url("/statics/img/autores.jpeg");
+  background-size: cover; 
+}
+
+table {
+  size: 50px; }
+
+thead {
+  background-color: #1a2f1c; }
+
+tr {
+  background-color: #d3de64; }
+
+th {
+  background-color: #1a2f1c !important;
+  font-size: 15px;
+  color: white;
+  font-family: 'Libre Baskerville', serif; }
+
+#editar {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: lighter; }
+
+#borrar {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: lighter; }
+
+.usuarios {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/statics/img/usuarios.jpeg");
+  background-size: cover; }
+
+.login {
+  min-height: 80vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-image: url("/statics/img/usuarios.jpeg");
+  background-size: cover; }
+
+.card-header {
+  background-color: #1a2f1c;
+  font-size: 30px;
+  color: white;
+  font-family: 'Libre Baskerville', serif; }
+
+.card {
+  background-color: #d3df63; }
+
+form {
+  font-size: 30px; }
+
+label {
+  font-size: 15px;
+  font-family: 'Libre Baskerville', serif;
+  color: #1a2f1c; }
+
+.btn:hover {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #d3df63;
+  transition: .3s ease-in-out; }
+
+.form-control {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 12px; }
+
+#submit {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 13px; }
+
+#contacto {
+  min-height: 85vh;
+  display: flex;
+  justify-content: cover; }
+
+footer {
+  background-size: cover;
+  background-color: #d3df63;
+  height: 15vh; }
+  footer h4 {
+    color: #1a2f1c; }
+
+html {
+  font-size: 62.5%; }
+
+* {
+  padding: 0;
+  margin: 0; }
