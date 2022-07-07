@@ -11,7 +11,7 @@ En la carpeta [`Parcial1_Grupo6-master`](/Parcial1_Grupo6-master/) se encuentra 
 # ASP.Net Proyecto2
 En la carpeta [`Parcial2_Grupo6-master`](/Parcial2_Grupo6-master/) se encuentra un proyecto de desarrollo app web usando ASP.net
 # Packet Tracer
-En la carpeta [`Packet_Tracer`](/Packet_Tracer/) se encuentra un proyecto de desarrollo app web usando ASP.net
-En la carpeta Packet Tracer se encuentra un proyecto de instalación y arquitectura de redes.
+En la carpeta [`Packet_Tracer`](/Packet_Tracer/) se encuentra un proyecto de instalación y arquitectura de redes.
+
 
 
