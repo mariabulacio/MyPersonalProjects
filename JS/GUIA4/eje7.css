@@ -1,0 +1,24 @@
+.oculto{
+    display:none;
+}
+
+.visible{
+    display: block;
+}
+.novalido {
+    color:#ff0000;
+    border-color: #ff0000;
+}
+
+.mouse{
+    background-color:#FFFFCC;
+}
+
+.key{
+    background-color: #CCE6FF;
+}
+
+.move{
+    background-color: white;
+}
+
