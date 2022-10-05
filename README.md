@@ -1,7 +1,5 @@
 # MyPersonalProjects
 Proyectos personales de cursos y facultad desarrollados en diferentes lenguajes y tecnologías.
-# JavaScript
-En la carpeta [`JS`](/JS/) se encuentran diferentes proyectos desarrollados en js.
 # SQL
 En la carpeta [`SQL`](/SQL/) se encuentran diferentes proyectos desarrollados en SQL.
 # ASP.Net Proyecto1
