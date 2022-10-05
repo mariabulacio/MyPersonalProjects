@@ -1,7 +1,5 @@
 # MyPersonalProjects
 Proyectos personales de cursos y facultad desarrollados en diferentes lenguajes y tecnologías.
-# BIBLO
-En la carpeta [`IFTS18.Biblioteca-master`](/IFTS18.Biblioteca-master/) se encuentra un proyecto de desarrollo web usando php y js.
 # JavaScript
 En la carpeta [`JS`](/JS/) se encuentran diferentes proyectos desarrollados en js.
 # SQL
